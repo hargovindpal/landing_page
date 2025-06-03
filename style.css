@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/bg-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+    color:#FFFFFF;
+    padding: 100px 0;
+}
+#content{
+    text-align: center;
+    margin-top: 50px;
+}
+.card-deck{
+    display: inline-flex;
+    margin-left:120px;
+    padding-top:20px;
+}
+.card{
+    margin-left:20px;
+    width: 300px;
+    border: 1px solid #cecaca;
+}
+.card-img-top{
+    width: 200px;
+    height: auto;
+    margin-left:17%;
+}
+.card-title{
+    text-align: center;
+}
+
+#footer{
+    background-color: aqua;
+    text-align: center;
+    margin-top:50px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+#footer img{
+    margin-top:20px;
+    width:120px;
+    height: auto;
+}
